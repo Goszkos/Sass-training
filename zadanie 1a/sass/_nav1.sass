@@ -1,0 +1,21 @@
+*
+    margin: 0
+    padding: 0
+
+nav
+    ul
+        list-style: none
+        + ul-settings(row, space-around)
+        li
+            width: 20%
+            a
+                display: block
+                text-align: center
+                line-height: 50px
+                text-decoration: none
+                color: $color-font
+                font-family: arial
+                text-transform: uppercase
+                background-color: black
+                &:hover
+                    background-color: red
